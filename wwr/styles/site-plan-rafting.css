@@ -34,18 +34,12 @@ header {
 }
 
 p {
-    padding: 20px;
+    padding: 1px;
     font-family: "Roboto", cursive;
     font-size: 20px;
     color: #9d695a
 }
 
-p1 {
-    padding: 15px;
-    font-family: "Roboto", cursive;
-    font-size: 17px;
-    color: #9d695a
-}
 
 
 div {
