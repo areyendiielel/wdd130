@@ -24,29 +24,34 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    font-size: 2rem;
 }
 
 header {
     padding: 20px;
     background-color: var(--accent1-color);
+    font-size: 20px;
 }
 
 p {
-    padding: 15px;
-    font-family: "Playwrite NG Modern", cursive;
+    padding: 20px;
+    font-family: "Roboto", cursive;
+    font-size: 20px;
+    color: #9d695a
 }
 
 p1 {
     padding: 15px;
-    font-family: "Playwrite NG Modern", cursive;
-    font-size: 13px;
+    font-family: "Roboto", cursive;
+    font-size: 17px;
+    color: #9d695a
 }
 
 
 div {
     font-family: var(--heading-font);
     color: var(--primary-color);
-
+    font-size: 2rem;
 
 }
 
