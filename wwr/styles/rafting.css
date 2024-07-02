@@ -99,10 +99,6 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
-footer img {
-    height: 50px;
-}
-
 footer p{
     float: left;
     font-family: var(--heading-font);
@@ -140,5 +136,8 @@ footer p{
 	height: auto;
 }
 
+.sociallinks img{
+    height: 50px;
+}
 
 
