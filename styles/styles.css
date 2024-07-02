@@ -41,11 +41,11 @@ aside {
     text-align: center;
 }
 
-aside h2 {
+/* aside h2 {
     position: absolute;
     top: 800px;
     left: 121px;
-}
+} */
 
 aside img {
     width: 200px;
@@ -58,7 +58,7 @@ main img {
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
-    /* float: right; */
+    float: right;
     margin: 0 0 1rem 1rem;
 }
 
