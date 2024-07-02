@@ -20,7 +20,7 @@ h1 {
 }
 
 img {
-    width: 150;
+    width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
@@ -33,7 +33,7 @@ p {
 }
 
 main {
-    max-width: 840px;
+    max-width: 640px;
 }
 
 aside {
