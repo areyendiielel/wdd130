@@ -15,7 +15,7 @@
     --nav-hover-background-color: #daedbd;
 }
 
-h2, h3, h4, h5, h6 {
+h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     font-size: 2rem;
@@ -48,7 +48,7 @@ main img{
 }
 
 header {
-    padding: 15x;
+    padding: 15px;
     background-color: var(--accent1-color);
     font-size: 20px;
 }
