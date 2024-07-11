@@ -19,6 +19,7 @@ h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     font-size: 2rem;
+    text-align: center;
 
 }
 
@@ -32,6 +33,7 @@ h1 {
 	color: #fff;
     display: block;
     width: 100%;
+    max-width: 95%;
     height: auto;
     left: 0%;
     top: 50%;
@@ -100,7 +102,7 @@ nav a:hover {
 
 }
 
-footer nav {
+.sociallinks {
     grid-column: 5/5;
     margin: 1rem;
     font-size: 1.2rem;
@@ -196,22 +198,27 @@ div img {
     
 }
 
-section {
-    text-align: center;
-}
+
 
 figure {
-    border: thin #c0c0c0 solid;
-    display: flex;
-    flex-flow: column;
-    padding: 5px;
-    max-width: 220px;
-    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* display: flex; */
+    /* flex-direction: column; */
+    padding: 10px;
+    max-width: 110px;
+    margin: 0;
+    grid-gap: 5px;
+
+    
   }
   
   figure img {
-    max-width: 220px;
+    display: flex;
+    max-width: 200px;
     max-height: 150px;
+    order: -1
+   
   }
   
   figcaption {
@@ -220,5 +227,7 @@ figure {
     font: italic smaller sans-serif;
     padding: 3px;
     text-align: center;
+    border: thin #c0c0c0 solid;
+
   }
 
