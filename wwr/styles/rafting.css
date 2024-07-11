@@ -38,26 +38,27 @@ h1 {
     text-align: center;
 
 }
-
+/* 
 main img{
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px ;
-}
+} */
 
 header {
     padding: 15px;
     background-color: var(--accent1-color);
     font-size: 20px;
 }
-/* 
+
 header img{
     position: relative;
-    top: 10px;
-    left: 100px;
-} */
+    top: 30px;
+    left:90px;
+    height: 170px;
+}
 
 p {
     padding: 1px;
@@ -65,23 +66,6 @@ p {
     font-size: 17px;
 }
 
-
-
-
-nav {
-    background-color: black;
-    font-size: 1.2rem;
-    display: flex;
-    float: right;
-    /* position: relative; */
-    
-}
-
-header nav {
-    height: auto;
-    float: right;
-    /* right: 150px; */
-}
 
 nav a {
     display: block;
@@ -99,11 +83,32 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
-footer p{
-    float: left;
+
+
+/* footer nav {
+    font-size: 1.2rem;
+    display: flex;
+    float: right;
+    position: relative;
+} */
+
+.grids {
+    display: grid;
+    align-items: center;
     font-family: var(--heading-font);
     color: var(--primary-color);  
+    text-align: center;
 }
+
+footer nav {
+    grid-column: 5/5;
+    margin: 1rem;
+    font-size: 1.2rem;
+    display: flex;
+    /* float: right; */
+}
+
+
 
 .hero img{
     display: block;
@@ -144,4 +149,54 @@ footer p{
     height: 50px;
 }
 
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr .2fr;
+    grid-template-rows: 10% 20% 30%;
+
+    padding: 2px;
+    /* background-color: #247; */
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    font-size: 20px;
+    background-color: black;
+    font-size: 1.2rem;
+    display: flex;
+    height: 50px;
+    grid-row-start: 3;
+    grid-column-start: 2;
+    
+}
+
+section{
+    text-align: center;
+}
+
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+  }
+  
+  figure img {
+    max-width: 220px;
+    max-height: 150px;
+  }
+  
+  figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+  }
 
