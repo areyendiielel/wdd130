@@ -201,14 +201,12 @@ div img {
 
 
 figure {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    /* display: flex; */
-    /* flex-direction: column; */
+    display: flex;
+    flex-direction: column;
     padding: 10px;
     max-width: 110px;
     margin: 0;
-    grid-gap: 5px;
+    grid-gap: 10px;
 
     
   }
@@ -217,7 +215,7 @@ figure {
     display: flex;
     max-width: 200px;
     max-height: 150px;
-    order: -1
+
    
   }
   
