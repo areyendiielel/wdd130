@@ -287,19 +287,19 @@ label {
 }
 
 input {
-    padding: 0,5rem;
+    padding: 0.5rem;
     font-size: 1.1rem;
 
 }
 
 select {
-    padding: 0,5rem;
+    padding: 0.5rem;
     font-size: 1.1rem;
     grid-column: 2/2;
 }
 
 textarea {
-    padding: 0,5rem;
+    padding: 0.5rem;
     font-size: 1.1rem;
 
 }
