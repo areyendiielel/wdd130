@@ -15,18 +15,10 @@
     --nav-hover-background-color: #daedbd;
 }
 
-h2 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-    font-size: 2rem;
-    text-align: center;
-
-}
-
 h1 {
     position: absolute;
 	margin: 1rem;
-	border: 1px solid #000(0,0,0,.1);
+	border: 1px solid #000;
 	padding: 15px;
 	background-color: black;
     opacity: .8;
@@ -40,6 +32,16 @@ h1 {
     text-align: center;
 
 }
+
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+
 
 main img{
 	border: 5px solid rgba(0,0,0,.1);
