@@ -88,7 +88,6 @@ nav a:hover {
 
 footer {
     border: 5px solid rgba(0,0,0,.1);
-
 }
 
 .grids {
@@ -113,7 +112,7 @@ footer {
 
 
 .hero img{
-    display: block;
+    position: relative;
     width: 100%;
     height: auto;
 }
@@ -379,9 +378,9 @@ footer {
     width: 300px;
     text-align: center;
     font-size: 1em;
+    font-weight: bold;
     font-family: var(--heading-font);
     color: black
-
 }
 
 /* table */
@@ -444,4 +443,8 @@ tbody > tr:nth-of-type(even) {
     grid-row-start: 3;
     grid-column-start: 2;
     
+}
+
+body {
+    background-image: url(images/happy.jpg);
 }
