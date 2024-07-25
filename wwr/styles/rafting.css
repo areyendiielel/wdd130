@@ -564,3 +564,7 @@ body {
     font-size: 25px;
     color: #28025a;
 }
+
+.column img {
+    height: auto;
+}
