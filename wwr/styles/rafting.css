@@ -161,6 +161,14 @@ footer {
     grid-template-rows: 10% 20% 30%;
 }
 
+.history-grid img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 100%;
+
+}
+
 .history-border {
     text-align: center;
     font-size: 1.3rem;
@@ -203,20 +211,28 @@ div img {
 
 
 
+
+
 .figures {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    /* grid-auto-rows: minmax(90px, auto); */
-    max-width: 110px;
-    margin: -10px;
+ 
+  }
+
+.figures img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 50%;
 
   }
   
-  figure img {
+  /* figures img {
     max-width: 110px;
     max-height: 60%;
     
-  }
+  } */
   
   figcaption {
     background-color: #222;
@@ -228,26 +244,35 @@ div img {
     
   }
 
+
   .employees {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /* grid-auto-rows: minmax(90px, auto); */
-    max-width: 110px;
-    margin: -10px;
-    margin-left: 170px;
+  }
+
+  .employees img{
+    display: block;
+    margin-left: auto;
     margin-right: auto;
+    /* width: auto; */
+
   }
 
   .trips {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr ;
-    /* grid-auto-rows: minmax(90px, auto); */
-    max-width: 110px;
-    margin: -10px;
+ 
+  }
 
+.trips img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
 
   }
+
 
   article figure img {
     max-width: 250px;
